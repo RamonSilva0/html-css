@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+   background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+header{
+    background-image: linear-gradient(#054923, #1A7945,  #0C562B, #043D1D, #146B39);
+    background-color: #317A3E;
+    margin: 0px;
+    height: 180px;
+}
+
+header > h1{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    padding-top:20px;
+    color: white;
+    
+    
+}
+
+.principal{
+    text-align: center;
+    padding-top: 9px;
+    color: white;
+}
+
+nav{
+     padding-top: 25px;
+}
+
+nav > a{
+   margin: 10px;
+   text-decoration: none;
+   color: white;
+}
+
+nav > a:hover {
+
+    padding: 5px;
+    background-color: #45b159;
+}
+
+h2{
+    font-family: fonte;
+    color: #489657;
+    padding-left: 10px;
+    margin-top: 0px;
+    
+}
+
+h3{
+    font-family: fonte;
+    color: #489657;
+    padding-left: 10px;
+    margin-top: 0px;
+    background-image: linear-gradient(#69da8083 , #FFFFFF);
+}
+
+main{
+    height: 1788px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+p > a{
+    background-color: #69da8083;
+    color: #295331;
+    font-weight: bold;
+}
+
+p{
+    text-indent: 20px;
+}
+
+.bugdroid{
+   text-align: center;
+}
+
+.video{
+    border: 26px solid #69da8083;
+    
+    
+}
+
+strong{
+    color: red;
+}
