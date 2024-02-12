@@ -11,10 +11,17 @@
         table{
             border-collapse: collapse;
             width: 500px;
+            position: relative;
+            margin: auto;
         }
         td, th{
             border: 1px solid black;
             padding: 8px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         thead, tfoot{
             background-color: gray;
@@ -23,6 +30,9 @@
         .num{
             text-align: right;
         }
+        
+    
+        
     </style>
 </head>
 <body>
